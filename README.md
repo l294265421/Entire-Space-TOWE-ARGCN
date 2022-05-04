@@ -1,4 +1,4 @@
-# ARGCN for [SIGIR-2022-Training Entire-Space Models for Target-oriented OpinionWords Extraction](https://arxiv.org/pdf/2204.07337.pdf)
+# ARGCN for [SIGIR 2022 Training Entire-Space Models for Target-oriented OpinionWords Extraction](https://arxiv.org/pdf/2204.07337.pdf)
 ## ARGCN non-entire-space (Training-validation instance type: Type I instance, Test instance type: Entire space)
 ./repeat_non_bert.sh 0 0,1,2,3,4 towe/main.py --config_filename conf_gnn_lstm_venus.ini --dataset ASOTEDataRest14 --dataset_suffix non-entire-space
 
