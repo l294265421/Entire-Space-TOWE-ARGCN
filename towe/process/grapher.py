@@ -14,7 +14,7 @@ class Grapher():
         # self.parser = spacy.load('./data/spacy_model/en_core_web_sm-2.2.5')
         # self.parser = spacy.load('en_core_web_sm')
         self.parser = spacy.load(common_path.project_dir
-                                 + 'data-backup/spacy_model/en_core_web_sm-2.2.5/en_core_web_sm/en_core_web_sm-2.2.5/')
+                                 + 'data/spacy_model/en_core_web_sm-2.2.5/en_core_web_sm/en_core_web_sm-2.2.5/')
 
 
         with open(dep_map_path, 'r') as f:

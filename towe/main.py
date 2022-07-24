@@ -68,7 +68,8 @@ if __name__ == "__main__":
     #     args.data_path = os.path.join(common_path.data_base_dir, 'data', args.dataset) + '/'
     args.data_path = os.path.join(common_path.data_base_dir, 'data-%s' % args.dataset_suffix, args.dataset) + '/'
 
-    args.w2v_path = os.path.join(args.data_path, '../full_glove.txt')
+    # args.w2v_path = os.path.join(args.data_path, '../full_glove.txt')
+    args.w2v_path = common_path.w2v_path
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
